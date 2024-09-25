@@ -1,6 +1,6 @@
 # Create python enviroment
 
-*1) Open a Terminal or Command Prompt.*
+**1) Open a Terminal or Command Prompt.**
 
 2) Navigate to Your Project Directory:
 
