@@ -7,42 +7,42 @@
 ```bash
 cd path/to/your/project
 ```
-Create the Virtual Environment: Run the following command, replacing myenv with your desired environment name:
+3) Create the Virtual Environment: Run the following command, replacing myenv with your desired environment name:
 
 ```bash
 python -m venv myenv
 ```
-Activate the Virtual Environment:
+4) Activate the Virtual Environment:
 
 On Windows:
 ```bash
 myenv\Scripts\activate
 ```
 
-Install Packages: After activating the environment, you can install packages using pip:
+5) Install Packages: After activating the environment, you can install packages using pip:
 
 ```bash
 pip install package_name
 ```
-Deactivate the Virtual Environment: When you're done working, you can deactivate the environment with:
+6) Deactivate the Virtual Environment: When you're done working, you can deactivate the environment with:
 
 ```bash
 deactivate
 ```
-Optional: Requirements File
+7) Optional: Requirements File
 If you want to create a requirements.txt file to track your dependencies, run:
 
 ```bash
 pip freeze > requirements.txt
 ```
-You can later install the same dependencies in another environment with:
+8) You can later install the same dependencies in another environment with:
 
 ```bash
 pip install -r requirements.txt
 ```
 
 Summary
-Create the environment: python -m venv myenv
-Activate it: source myenv/bin/activate (or myenv\Scripts\activate on Windows)
-Install packages as needed.
-Deactivate when finished.
+1) Create the environment: python -m venv myenv
+2) Activate it: source myenv/bin/activate (or myenv\Scripts\activate on Windows)
+3) Install packages as needed.
+4) Deactivate when finished.
